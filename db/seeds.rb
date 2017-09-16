@@ -1,5 +1,6 @@
 require 'random_data'
 
+
  # Create Posts
  50.times do
  # #1
@@ -10,6 +11,11 @@ require 'random_data'
    )
  end
  posts = Post.all
+
+ Post.find_or_create_by!(
+   title: "Unique Title",
+   body: "Unique Body"
+ )
 
  # Create Comments
  # #3
