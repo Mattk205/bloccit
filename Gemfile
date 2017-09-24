@@ -50,4 +50,4 @@ end
 gem 'bootstrap-sass'
 
 # Used for encrypting passwords
-gem 'bcrypt-ruby'
+gem 'bcrypt'
