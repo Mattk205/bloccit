@@ -9,6 +9,6 @@ class User < ApplicationRecord
             uniqueness: { case_sensitive: false },
             length: { minimum: 3, maximum: 254 }
 
-# #6 add back has_secure_password once you talk to Alex
+  has_secure_password 
 
 end
