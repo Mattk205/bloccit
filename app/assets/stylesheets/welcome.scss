@@ -6,11 +6,20 @@
 .jumbotron {
   background-image: url("mobile_blocs.png");
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: left bottom;
   height: 300px;
 }
 .cover-text {
   font-weight: bold;
+}
+
+.icon {
+    color: red;
+    font-size: 5rem;
+}
+
+.uses {
+  text-align: center;
 }
 }
 @media only screen and (min-width: 1000px) {
@@ -22,5 +31,12 @@
 }
 .cover-text {
   font-weight: bold;
+}
+.icon {
+    color: red;
+    font-size: 5rem;
+}
+.uses {
+  text-align: center;
 }
 }
