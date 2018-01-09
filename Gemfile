@@ -51,3 +51,6 @@ gem 'bootstrap-sass'
 
 # Used for encrypting passwords
 gem 'bcrypt'
+
+# Used for setting User rolesbundle
+gem 'pundit'

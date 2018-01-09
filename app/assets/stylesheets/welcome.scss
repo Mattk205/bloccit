@@ -1,3 +1,26 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@media only screen and (max-width: 999px) {
+
+.jumbotron {
+  background-image: url("mobile_blocs.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 300px;
+}
+.cover-text {
+  font-weight: bold;
+}
+}
+@media only screen and (min-width: 1000px) {
+
+.jumbotron {
+  background-image: url("blocs.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.cover-text {
+  font-weight: bold;
+}
+}
